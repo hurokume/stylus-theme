@@ -1,0 +1,64 @@
+@-moz-document domain("kaggle.com") {
+
+    svg,
+    .MuiSvgIcon-root,
+    [class*="MuiSvgIcon"] {
+        display: none !important;
+    }
+
+    img[alt*="avatar" i],
+    img[alt*="profile" i],
+    img[alt*="icon" i],
+    [class*="avatar" i] img,
+    [class*="profile" i] img,
+    [data-testid*="avatar" i],
+    [data-testid*="profile" i],
+    [data-testid*="icon" i],
+    [role="img"] {
+        display: none !important;
+    }
+
+    nav a img,
+    nav a svg,
+    nav button img,
+    nav button svg,
+    aside a img,
+    aside a svg,
+    aside button img,
+    aside button svg {
+        display: none !important;
+    }
+
+    .MuiButton-startIcon,
+    .MuiButton-endIcon,
+    [class*="startIcon"],
+    [class*="endIcon"],
+    [class*="iconContainer" i],
+    [class*="iconWrapper" i] {
+        display: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 0 !important;
+        min-width: 0 !important;
+    }
+
+    img[style*="border-radius"],
+    img[class*="avatar" i],
+    img[class*="profile" i] {
+        display: none !important;
+    }
+
+    h1+div img,
+    h1+div svg {
+        display: none !important;
+    }
+
+    nav a,
+    nav button,
+    aside a,
+    aside button,
+    button,
+    [role="button"] {
+        gap: 0 !important;
+    }
+}
